@@ -27,11 +27,6 @@ public record UBBiomeModifier(HolderSet<Biome> biomes, MobSpawnSettings.SpawnerD
 				builder.getMobSpawnSettings().addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(ModEntities.TIBETAN_FOX.get(), 8, 1, 1));
 			}
 
-			if (biome.is(Biomes.SOUL_SAND_VALLEY)) {
-				builder.getMobSpawnSettings().addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(ModEntities.SOUL.get(), 18, 1, 3));
-				builder.getMobSpawnSettings().addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(ModEntities.THE_INSATIABLE.get(), 5, 1, 1));
-			}
-
 		}
 	}
 
