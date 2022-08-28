@@ -16,9 +16,4 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntities.LEMMING, -10066330, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> TIBETAN_FOX_SPAWN_EGG = ITEMS.register("tibetan_fox_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.TIBETAN_FOX, -3355648, -26317, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-    public static final RegistryObject<Item> SOUL_SPAWN_EGG = ITEMS.register("soul_spawn_egg",
-            () -> new ForgeSpawnEggItem(ModEntities.SOUL, -16724788, -10053121, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-    public static final RegistryObject<Item> THE_INSATIABLE_SPAWN_EGG = ITEMS.register("the_insatiable_spawn_egg",
-            () -> new ForgeSpawnEggItem(ModEntities.THE_INSATIABLE, -16751002, -16777063,
-                    new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 }
