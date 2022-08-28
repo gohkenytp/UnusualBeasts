@@ -1,0 +1,11 @@
+{
+	"entity.unusualbeasts.lemming": "Lemming",
+	"entity.unusualbeasts.tibetan_fox": "Tibetan Fox",
+	"entity.unusualbeasts.mossling": "Mossling",
+	"entity.unusualbeasts.soul": "Soul",
+
+	"item.unusualbeasts.lemming_spawn_egg": "Lemming Spawn Egg",
+	"item.unusualbeasts.tibetan_fox_spawn_egg": "Tibetan Fox Spawn Egg",
+	"item.unusualbeasts.mossling_spawn_egg": "Mossling Spawn Egg",
+	"item.unusualbeasts.soul_spawn_egg": "Soul Spawn Egg"
+}
